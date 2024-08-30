@@ -10,5 +10,7 @@ namespace ConsGIT
     {
         public static string GetDate() => DateTime.Now.ToString();
         public string Concat(string s1, string s2) => s1 + s2;  
+
+        public string Save(string s1, string s2) => s1 + s2 + "saved.";  
     }
 }
